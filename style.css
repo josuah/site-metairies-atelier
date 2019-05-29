@@ -1,0 +1,29 @@
+@font-face {
+	font-family: olde-stencil;
+	src: url(/olde-stencil.ttf);
+}
+
+body {
+	max-width: 100ch;
+	margin: auto;
+	background-color: #235;
+	color: white;
+	font-family: sans;
+	font-size: 0.45cm;
+	padding: 10%;
+}
+
+body > * {
+	max-width: 100%;
+}
+
+body > p::first-letter {
+	font-family: olde-stencil;
+	font-size: 2em;
+	float: left;
+	margin-right: 0.2ch;
+}
+
+a {
+	color: inherit;
+}
