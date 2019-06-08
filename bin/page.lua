@@ -27,14 +27,14 @@ if #arg ~= 1 then
   os.exit(1)
 end
 
-dump('html/head.html')
+dump('t/head.html')
 
 f = io.open(arg[1]) assert(f, 'could not open "'..arg[1]..'"')
 
 for pack in gallery_it,f do
   print()
 
-  if pack[1]:sub(1, 5) == '/img/' then
+  if pack[1]:sub(1, 3) == '/i/' then
 
     if #pack == 1 then
       print('<img src="'..pack[1]..'">')
@@ -50,4 +50,4 @@ for pack in gallery_it,f do
   end
 end
 
-dump('html/foot.html')
+dump('t/foot.html')

@@ -6,14 +6,15 @@ for file; do
 	dir=${file%/*}
 	dir=${dir##*/}
 
-	[ ! -f "img/$hash/$ext" ] || continue
+	[ ! -f "i/$hash/$ext" ] || continue
 
 	mkdir -p tmp
 	imagew -w 800 "$file" tmp/$$.$ext
 	hash=$(openssl sha256 "tmp/$$.$ext" | sed 's/.*= //')
-	mv "tmp/$$.$ext" "img/$hash.$ext"
+	mv "tmp/$$.$ext" "i/$hash.$ext"
 	rm "$file"
 
-	printf '\n%s\n' "/img/$hash.$ext" >>p/$dir/index.txt
+	mkdir -p "p/$dir"
+	printf '\n%s\n' "/i/$hash.$ext" >>p/$dir/index.txt
 
 done
