@@ -7,13 +7,16 @@ body {
 	display: block;
 	max-width: 1000px;
 	margin: auto;
-	padding: 10%;
+	padding-top: 10%;
+	padding-bottom: 350px;
 	line-height: 1.8em;
 
 	color: white;
 
 	background-color: #235;
 	background-image: url('/pattern.png');
+	background-repeat: repeat-x;
+	background-position: bottom;
 
 	font-family: sans;
 	font-size: 0.45cm;
