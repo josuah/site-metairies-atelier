@@ -1,7 +1,6 @@
 #!/bin/sh -e
 
 for file; do
-
 	ext=$(echo "$file" | tr A-Z a-z | sed 's/.*\.//; s/jpeg/jpg/')
 	dir=${file%/*}
 	dir=${dir##*/}
@@ -16,5 +15,4 @@ for file; do
 
 	mkdir -p "p/$dir"
 	printf '\n%s\n' "/i/$hash.$ext" >>p/$dir/index.txt
-
 done

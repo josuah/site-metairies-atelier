@@ -3,9 +3,13 @@
 	src: url(/olde-stencil.ttf);
 }
 
+html {
+	background-image: linear-gradient(#235, #357);
+	background-attachment: fixed;
+}
+
 body {
 	display: block;
-	max-width: 1000px;
 	margin: auto;
 	padding: 10%;
 	padding-top: 10%;
@@ -14,33 +18,56 @@ body {
 
 	color: white;
 
-	background-color: #235;
-	background-image: url('/pattern.png');
-	background-repeat: repeat-x;
-	background-position: bottom;
-
 	font-family: sans;
 	font-size: 0.45cm;
+
+	background-image: url('/img/pattern.png');
+	background-repeat: repeat-x;
+	background-position: bottom;
 }
 
 body > * {
+	max-width: 1000px;
+	margin: 50px auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.img {
+	max-width: calc(100% - 20px - 2px);
+	width: 500px;
+}
+
+.img:target {
+	background-color: black;
 	width: 100%;
-	margin: 70px auto;
 }
 
-body > img {
-	margin: 100px auto;
-	max-width: 800px;
+.img, .category {
 	display: block;
+	margin: 10px auto;
+	padding: 10px;
+	border: solid 1px #78b;
 }
 
-body > p::first-letter,
-h1::first-letter,
-h2::first-letter,
-h3::first-letter,
-h4::first-letter,
-h5::first-letter,
-h6::first-letter {
+.img > * {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	text-shadow: 0.1em 0.2em #000;
+}
+
+.category > * {
+	background-position: center center;
+	background-size: cover;
+	line-height: 300px;
+	text-align: center;
+	font-size: 2em;
+}
+
+body > *::first-letter {
 	font-family: olde-stencil;
 	font-size: 2em;
 	float: left;
@@ -51,23 +78,10 @@ header img {
 	display: block;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6 {
 	margin-top: 3em;
 }
 
 a {
 	color: inherit;
-}
-
-.category {
-	display: block;
-	background-position: center center;
-	background-size: cover;
-	min-width: 100px;
-	line-height: 300px;
-	text-align: center;
-	text-decoration: none;
-	color: white;
-	font-size: 2em;
-	text-shadow: 2px 2px #000;
 }
