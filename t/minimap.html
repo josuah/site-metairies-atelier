@@ -1,0 +1,11 @@
+<link rel=stylesheet href="/leaflet.css" type="text/css"/>
+<script src="/leaflet.js"></script>
+<script id="map" style="height: 300px; display: block;">
+var map = L.map('map', {
+	scrollWheelZoom: false
+}).setView([47.91139645047015, -1.832517385482788], 7);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+L.marker([47.91139645047015, -1.832517385482788]).addTo(map)
+</script>

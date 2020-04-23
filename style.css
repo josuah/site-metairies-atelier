@@ -4,7 +4,7 @@
 }
 
 html {
-	background-image: linear-gradient(#080820, #304070);
+	background-image: linear-gradient(#070619, #324670);
 	background-attachment: fixed;
 }
 
@@ -34,8 +34,16 @@ body > * {
 	margin-right: auto;
 }
 
-.img {
+header img {
+	margin: auto;
+	display: block;
+}
+
+.img, header img {
 	max-width: calc(100% - 20px - 2px);
+}
+
+.img {
 	width: 500px;
 }
 
@@ -75,11 +83,6 @@ h1:first-letter, h2:first-letter, h3:first-letter {
 	font-family: olde-stencil;
 	font-size: 1.5em;
 	float: left;
-}
-
-header img {
-	margin: auto;
-	display: block;
 }
 
 h1, h2, h3 {

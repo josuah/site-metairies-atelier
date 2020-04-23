@@ -1,0 +1,31 @@
+<h1>Atelier Fu</h1>
+
+<p>L'Atelier Fu est un atelier d'artisanat du bois où des créations
+   originales sont produites.  Les techniques varient du tournage
+   sur bois, à la sculpture. L'ouvrage s'inspire de mouvements
+   d'artisanats d'Europe et du Japon.  L'ensemble du travail est
+   réalisé à la main par l'artisan, s'aidant d'outils mécaniques
+   et manuels. Chaque objet produit est une réalisation unique
+   suivant la demande du client.</p>
+
+<p>Situé en campagne de Bretagne, entourés de bocages.  Des bois
+   locaux y sont parfois utilisés, avec une reserve de bois de
+   toutes provenances venant enrichir la collection.</p>
+
+<p>En plus des objets présentés ici, l'Atelier Fu réalise également
+   des queues de billard, des manches d'outils et poignées, des
+   boîtes à thé, café ou autre, des ballustres d'escalier ou des
+   pieds de meubles...</p>
+
+/t/categories.html
+
+<h2>Contact</h2>
+
+<p>L'Atelier Fu sera ravi de recevoir vos demandes.  Il est possible
+   d'envoyer des colis en france ou au delà des frontières.  L'idéal
+   est que vous puissiez voir le résultat en face avant la vente
+   pour permettre des ajustements, mais si la distance est trop
+   importante, des photos montrant l'avancement peuvent être
+   envoyées.</p>
+
+/t/minimap.html
