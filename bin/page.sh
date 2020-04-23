@@ -1,5 +1,8 @@
 #!/bin/sh -e
 
+dest=$1
+
+mkdir -p "$dest"
 exec find . -name 'index.txt' -exec sh -c '
 	( cat "t/head.html"
 	i=0; while read line; do i=$((i+1))
@@ -8,6 +11,6 @@ exec find . -name 'index.txt' -exec sh -c '
 		(/t/*) cat "${line#/}" ;;
 		(*) echo "$line" ;;
 		esac
-	done <"$0"
-	cat "t/foot.html" ) >"${0%.txt}.html"
-' {} \;
+	done <"$1"
+	cat "t/foot.html" ) >"$0/${1%.txt}.html"
+' "$dest" {} \;

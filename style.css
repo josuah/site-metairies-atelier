@@ -4,7 +4,7 @@
 }
 
 html {
-	background-image: linear-gradient(#235, #357);
+	background-image: linear-gradient(#101030, #304070);
 	background-attachment: fixed;
 }
 
@@ -18,17 +18,18 @@ body {
 
 	color: white;
 
+	font-size: 0.44cm;
 	font-family: sans;
-	font-size: 0.45cm;
 
 	background-image: url('/img/pattern.png');
+	background-size: 70px;
 	background-repeat: repeat-x;
 	background-position: bottom;
 }
 
 body > * {
 	max-width: 1000px;
-	margin: 50px auto;
+	margin: 30px auto;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -38,16 +39,27 @@ body > * {
 	width: 500px;
 }
 
-.img:target {
-	background-color: black;
-	width: 100%;
-}
-
 .img, .category {
 	display: block;
 	margin: 10px auto;
 	padding: 10px;
-	border: solid 1px #78b;
+	border: solid 1px #76b;
+}
+
+.img:target {
+	width: 800px;
+}
+
+.img:target, .img:hover, .category:active, .category:hover {
+	background-color: black;
+}
+
+.category > * {
+	background-position: center center;
+	background-size: cover;
+	line-height: 300px;
+	text-align: center;
+	font-size: 2em;
 }
 
 .img > * {
@@ -59,17 +71,9 @@ a {
 	text-shadow: 0.1em 0.2em #000;
 }
 
-.category > * {
-	background-position: center center;
-	background-size: cover;
-	line-height: 300px;
-	text-align: center;
-	font-size: 2em;
-}
-
-body > *::first-letter {
+h1:first-letter, h2:first-letter, h3:first-letter {
 	font-family: olde-stencil;
-	font-size: 2em;
+	font-size: 1.5em;
 	float: left;
 }
 
@@ -78,7 +82,7 @@ header img {
 	display: block;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
 	margin-top: 3em;
 }
 
