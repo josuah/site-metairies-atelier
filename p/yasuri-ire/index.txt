@@ -1,4 +1,11 @@
-/t/yasuri-ire.html
+<h1> Etuis à limes </h1>
+
+<p>Ces étuis à limes sont des Yasuri Ire, des boites allongées pour
+   de petits outils tel que les limes utilisées dans la pratique du
+   <a href="https://fr.wikipedia.org/wiki/Kyudo">Kyudo</a>.  Elles
+   sont de taille à contenir une lime à ongle.  Et leur forme,
+   apparence et dimensions peuvent varier à la demande. </p>
+
 /i/69c0884c1076a7f1156fa922438920883c8aaeb2cd5d9e9f8db346dbcf97bf10.jpg
 /i/69c0884c1076a7f1156fa922438920883c8aaeb2cd5d9e9f8db346dbcf97bf10.jpg
 /i/ec2f4cdbb170369b08b9d106865c4e667dc5e58f4213637d748ef42be121b7b8.jpg

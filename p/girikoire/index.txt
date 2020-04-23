@@ -1,4 +1,10 @@
-/t/girikoire.html
+<h1>Girikoire</h1>
+
+<p>Les Girikoire sont des boîtes contenant de la poudre à placer
+   dans le gant en cuir utilisé dans le tir à l'arc traditionnel
+   japonais (Kyudō).  Une bage pivote, tourne, et ouvre un trou
+   permettant de faire couler la poudre.</p>
+
 /i/b0dc5b1913ab5a100807b13810ce1dd9f006f66252bbd76c4eea7cfef1a7ec85.jpg
 /i/e069fd7656b330b1a0d9f3ec0ce0255eac26da3fd24b9cf7346d823330a73fec.jpg
 /i/d01f6f5f6ad4dbb1d5e1661660fdab783d3896c6a2040844586c7b7fdae2c479.jpg

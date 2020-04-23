@@ -1,4 +1,8 @@
-/t/tsurumaki.html
+<h1>Tsurumaki</h1>
+
+<p>Les Tsurumaki sont des anneaux fait pour enrouler une corde, en
+   l'occurence, une corde d'arc en chanvre.</p>
+
 /i/62aa1f722c6d7f2b529710fc9cf18be03f6e18f123570e3dfb1f677eaea7d426.jpg
 /i/62aa1f722c6d7f2b529710fc9cf18be03f6e18f123570e3dfb1f677eaea7d426.jpg
 /i/c90a6ab70815faaa0d6aec50bcd240b29ee6f53ff5bd9dbda351ed0392107e2d.jpg
