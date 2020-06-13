@@ -2,9 +2,7 @@
 tmp=$(git-hooks-workdir "$@")
 trap 'rm -rf "$tmp"' INT TERM EXIT HUP
 
-dest="/srv/www/htdocs/atelier-fu"
-
 cd "$tmp"
-bin/make-pages "$dest"
-cp -r img images *.css *.ttf *.js p "$dest"
-ln -sf p/index.html "$dest"
+bin/make-pages /srv/http/vhost/atelier-fu
+cp -r img images *.css *.ttf *.js p /srv/http/vhost/atelier-fu
+ln -sf p/index.html /srv/http/vhost/atelier-fu
