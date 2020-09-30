@@ -1,8 +1,0 @@
-#!/bin/sh -ex
-tmp=$(git-hooks-workdir "$@")
-trap 'rm -rf "$tmp"' INT TERM EXIT HUP
-
-cd "$tmp"
-bin/make-pages /srv/http/vhost/atelier-fu
-cp -r img images *.css *.ttf *.js p /srv/http/vhost/atelier-fu
-ln -sf p/index.html /srv/http/vhost/atelier-fu
