@@ -2,7 +2,119 @@
 <title>Atelier Fu</title>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="initial-scale=1.0">
-<link rel=stylesheet href="/style.css" type="text/css"/>
+<style>
+
+html {
+	background-image: linear-gradient(#070619, #324670);
+	background-attachment: fixed;
+}
+
+body {
+	display: block;
+	margin: auto;
+	padding: 10%;
+	padding-bottom: 350px;
+	line-height: 1.8em;
+
+	color: white;
+
+	font-size: 0.44cm;
+	font-family: sans;
+
+	background-image: url('/img/pattern.png');
+	background-size: 70px;
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+body > * {
+	max-width: 1000px;
+	margin: 30px auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header img {
+	margin: auto;
+	display: block;
+}
+
+nav {
+	text-align: center;
+}
+
+nav > a {
+	border-top: solid 1px rgba(0,0,0,0);
+	border-bottom: solid 1px rgba(0,0,0,0);
+	display: inline-block;
+}
+
+nav > a:hover {
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+}
+
+.img, header img {
+	max-width: calc(100% - 20px - 2px);
+}
+
+.img {
+	width: 500px;
+}
+
+.img, .category {
+	display: block;
+	margin: 10px auto;
+	padding: 10px;
+	border: solid 1px #76b;
+}
+
+.img:target {
+	width: 800px;
+}
+
+.img:target, .img:hover, .category:active, .category:hover {
+	background-color: black;
+}
+
+.category > * {
+	background-position: center center;
+	background-size: cover;
+	line-height: 300px;
+	text-align: center;
+	font-size: 2em;
+}
+
+.img > * {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	text-shadow: 0.1em 0.2em #000;
+}
+
+h1, h2, h3 {
+	margin-top: 3em;
+}
+
+a {
+	color: inherit;
+}
+
+</style>
 </head>
 
 <a href="/"> <header> <img src="/images/atelier-fu.png"/> </header> </a>
+
+<nav>
+<a href="/p/moulins-a-poivre/">Moulins À Poivre コショウひき</a>
+・
+<a href="/p/gobelets/">Gobelets 湯のみ</a>
+・
+<a href="/p/girikoire/">Girikoire ぎり粉いれ</a>
+・
+<a href="/p/yasuri-ire/">Boîtes à Limes 鑢いれ</a>
+・
+<a href="/p/tsurumaki/">Tsurumaki 弦巻</a>
+</nav>
