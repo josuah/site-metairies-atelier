@@ -1,3 +1,6 @@
+/t/head.html
+/t/head-atelier.html
+
 <h1>Atelier Fu</h1>
 
 <p>L'Atelier Fu est un atelier d'artisanat du bois où des créations
@@ -29,3 +32,4 @@
    envoyées.</p>
 
 /t/minimap.html
+/t/foot.html

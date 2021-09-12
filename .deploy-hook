@@ -1,3 +1,0 @@
-#!/bin/sh -ex
-bin/make-pages .
-ln -sf p/index.html .

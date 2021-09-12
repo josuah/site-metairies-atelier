@@ -1,14 +1,13 @@
 #!/bin/sh -e
 
-export dst=$1
+cd "$1"
 
-mkdir -p "$dst"
 exec find . -name 'index.txt' -exec sh -c '
 	i=0; while read line; do i=$((i+1))
 		case $line in
 		(/i/*) echo "<a href=\"#$i\" id=\"$i\" class="img"><img src=\"$line\"/></a>" ;;
-		(/t/*) cat "${line#/}" ;;
+		(/t/*) cat "..$line" ;;
 		(*) echo "$line" ;;
 		esac
-	done <$0 | cat t/head.html - t/foot.html >$dst/${0%.txt}.html
+	done <$0 >${0%.txt}.html
 ' {} \;
