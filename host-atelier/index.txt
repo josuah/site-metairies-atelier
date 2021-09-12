@@ -20,8 +20,6 @@
    boîtes à thé, café ou autre, des ballustres d'escalier ou des
    pieds de meubles...</p>
 
-/t/categories.html
-
 <h2>Contact</h2>
 
 <p>L'Atelier Fu sera ravi de recevoir vos demandes.  Il est possible
@@ -31,5 +29,4 @@
    importante, des photos montrant l'avancement peuvent être
    envoyées.</p>
 
-/t/minimap.html
 /t/foot.html
