@@ -1,0 +1,10 @@
+<meta charset="UTF-8"/>
+
+<p>Les Métairies, un site regroupant les activités :</p>
+<ul>
+<li>Pratique du <a href="https://kyudo.metairies.org/">Kyudo</a> avec l'association Miki (<a href="https://agora.metairies.org/">espace adhérents</a>)</li>
+<li>Enseignement de l'art floral <a href="https://ikebana.metairies.org/">Ikebana</a> avec l'association Miki</li>
+<li>Découverte de la <a href="https://chanoyu.metairies.org/">cérémonie du Thé </a>avec l'association Miki</li>
+<li>Artisanat du bois de l'<a href="https://atelier.metairies.org/">Atelier Fu</a></li>
+<li>Projet de restauration d'une longère traditionnelle Française.</li>
+</ul>

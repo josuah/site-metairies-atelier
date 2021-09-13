@@ -1,5 +1,3 @@
-/t/head.html
-/t/head-atelier.html
 
 <h1> Etuis à limes </h1>
 
@@ -29,5 +27,3 @@
 /i/253b09f8595edfd068f4c77bf8dddc321554b181c845e6c9d1e8a1f8ce4ae73c.jpg
 /i/741ed5c2ce5e836064ce73c5d437f2a3d2efc09ab44f8cd84123cee4714c7907.jpg
 /i/be897a9eaa97419404b4e75622135debfe65d1e80216ee6af22b530807ce0dad.jpg
-
-/t/foot.html

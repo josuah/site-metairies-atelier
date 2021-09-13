@@ -1,0 +1,163 @@
+<!doctype html>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="initial-scale=1.0">
+<style>
+
+html {
+	background-attachment: fixed;
+	background-image: linear-gradient(var(--bg-grad-1), var(--bg-grad-2));
+}
+
+body {
+	color: var(--fg-color);
+
+	display: block;
+	margin: auto;
+	padding: 10%;
+	padding-bottom: 350px;
+	line-height: 1.8em;
+
+	font-size: 0.44cm;
+	font-family: sans;
+
+	background-image: url('/img/pattern.png');
+	background-size: 70px;
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+body > * {
+	max-width: 1000px;
+	margin: 30px auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header img {
+	margin: auto;
+	display: block;
+}
+
+nav {
+	text-align: center;
+}
+
+nav > a {
+	border-top: solid 1px rgba(0,0,0,0);
+	border-bottom: solid 1px rgba(0,0,0,0);
+	text-decoration: none;
+	display: inline-block;
+}
+
+nav > a:hover {
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+}
+
+.img, header img {
+	max-width: calc(100% - 20px - 2px);
+}
+
+.img {
+	width: 500px;
+	line-height: 0em;
+}
+
+.img {
+	display: block;
+	margin: 10px auto;
+	padding: 10px;
+	border: solid 1px #76b;
+}
+
+.img:target {
+	width: 800px;
+}
+
+.img:target, .img:hover {
+	background-color: var(--bg-color);
+}
+
+.img > * {
+	width: 100%;
+}
+
+h1, h2, h3 {
+	margin-top: 3em;
+}
+
+a {
+	color: inherit;
+}
+
+</style>
+<title>Atelier Fu</title>
+<style>
+:root { 
+	--bg-grad-1: #070619;
+	--bg-grad-2: #324670;
+	--bg-color: black;
+	--fg-color: white;
+}
+</style>
+
+<a href="/"> <header> <img src="/images/atelier-fu.png"/> </header> </a>
+
+<nav>
+<a href="/moulins-a-poivre/">Moulins À Poivre コショウひき</a>
+・
+<a href="/gobelets/">Gobelets 湯のみ</a>
+・
+<a href="/girikoire/">Girikoire ぎり粉いれ</a>
+・
+<a href="/yasuri-ire/">Boîtes à Limes 鑢いれ</a>
+・
+<a href="/tsurumaki/">Tsurumaki 弦巻</a>
+</nav>
+
+<h1> Moulins à Poivre</h1>
+
+<p>Dans le souvenir des moulins à poivre et à sel Peugeot en bois
+tourné, ces moulins en bois s'en démarquent dans leur style et
+leur forme, et peuvent accueillir différents grains.</p>
+
+<a href="#8" id="8" class=img><img src="/i/3766f3517525c1d36cf08160aca4516f2405a5967736f5a5d6ab6faf8e893613.jpg"/></a>
+<a href="#9" id="9" class=img><img src="/i/d9df0c5b9395ba558eef5cf211ed8e4c7da9339a5b0617b69ba7b7b508b83607.jpg"/></a>
+<a href="#10" id="10" class=img><img src="/i/2dc4dc3d08981d865a103ef17a70e9834790cb696e75613e131620bd14f206a4.jpg"/></a>
+<a href="#11" id="11" class=img><img src="/i/8173c7f4743edad3e2072bc116f7267f2f857c197294080c3a0faa14e1c51eb0.jpg"/></a>
+<a href="#12" id="12" class=img><img src="/i/222fec443f0e9cd5b28bcae691a5295c41e981264ecac0636bb39d8021dbdef0.jpg"/></a>
+<a href="#13" id="13" class=img><img src="/i/8a42f71b7df68c810b07e747deade72219377fefbf76ce9576a7dc13d0f0047b.jpg"/></a>
+<a href="#14" id="14" class=img><img src="/i/79de00b4e31d4d16214abceba274981e572e85bdc41b9e1a31966876fda09e04.jpg"/></a>
+<a href="#15" id="15" class=img><img src="/i/c8a4a975e430a118c18ca6ad6ec1a4a5888769b21273e2a193ed0bf29d7d8b05.jpg"/></a>
+<a href="#16" id="16" class=img><img src="/i/37ad7bade7f889534b0b4dac261d48bb69c6ffd8472424878e934dc6e811ea51.jpg"/></a>
+<a href="#17" id="17" class=img><img src="/i/cb66222a6212510f2c083117c23895e60cd1860fc6f39220d873962dcdbe1cf7.jpg"/></a>
+<a href="#18" id="18" class=img><img src="/i/6718c42380220134c3076176f294f6d90fe52b92d70ccb34537b0aaa1a03cc66.jpg"/></a>
+<a href="#19" id="19" class=img><img src="/i/17d182312b01118ca5cd1a73ecd485b0530f68ed9e5225559c09465d9b22d71e.jpg"/></a>
+<a href="#20" id="20" class=img><img src="/i/da0a1bae58c132867e4e70cbe9732ba046764e9c0861f0f572d19340376a2a5b.jpg"/></a>
+<a href="#21" id="21" class=img><img src="/i/13116866ea846065665ada5a5401411134023300bc801ed175131713dd3f65ed.jpg"/></a>
+<a href="#22" id="22" class=img><img src="/i/2f772c510fa257852f420760bdc7edee85fd293d94b428d4da25bb1cc2b63eca.jpg"/></a>
+<a href="#23" id="23" class=img><img src="/i/9ee7575e80e32979f63fb46c0637b48d766f3a4208fd8fd0dc876f265b1ebc63.jpg"/></a>
+<a href="#24" id="24" class=img><img src="/i/b5e92eb433f04d59a434f92532ee74cfeec366e7ea8bd74f2a356eff18eeb4c3.jpg"/></a>
+<a href="#25" id="25" class=img><img src="/i/7176e10d13be2b2a1acf704e3dea1b2016afed63c53634d845e1421abe1e55b2.jpg"/></a>
+<a href="#26" id="26" class=img><img src="/i/d81c3ee7c46c8379f2c4e6b3fb57a1036668eb5c368ed96a54e8b08edd8e0981.jpg"/></a>
+<a href="#27" id="27" class=img><img src="/i/a849a9dcdbe49d04afce06e0b4c806a623866c057be6d2b16aeb60e66f915bd0.jpg"/></a>
+<a href="#28" id="28" class=img><img src="/i/f05c6938b947a2c474222ebf127254bbf582d88672589bfcb161b91bc74f97cf.jpg"/></a>
+<a href="#29" id="29" class=img><img src="/i/f52348b057ca2cc8ba14d3488ac631115dad137bc205ba5ca114422b2fdcf2df.jpg"/></a>
+<a href="#30" id="30" class=img><img src="/i/c61b1c33af8a9925c41e7548f4baf6bc4bfdf50bafb8f7fdfe1e1a968b1fec8f.jpg"/></a>
+<a href="#31" id="31" class=img><img src="/i/3a429ff764ac4d550db3fb9d521f704e9d2d7bfd96b897ae318dfa3d2cf9e6b4.jpg"/></a>
+<a href="#32" id="32" class=img><img src="/i/86de572b64e1103be35d74545e31690be8eb3a03d7c5fefa4b21688dd5a194f3.jpg"/></a>
+<a href="#33" id="33" class=img><img src="/i/15132eb3b6832aedd488db9a21978b43ec4632e21203550c6ba63a655f557bad.jpg"/></a>
+<a href="#34" id="34" class=img><img src="/i/e66f07262d315d066dc688f32fc4304dcc5417626d0a2b54abda3b1e05fffb54.jpg"/></a>
+<a href="#35" id="35" class=img><img src="/i/25f780530fc755e1c564ed7125683b812a35de350d79549a15f5c9e74e066f9d.jpg"/></a>
+<a href="#36" id="36" class=img><img src="/i/09a49b5210c04146aaf3c02bced388fe3447e19ef56eb261ff92ca5bce24c4ef.jpg"/></a>
+<a href="#37" id="37" class=img><img src="/i/92c368d0f39f6454d6ffd7ebe3d001bbebc51c131750c1575629043bee51f283.jpg"/></a>
+<a href="#38" id="38" class=img><img src="/i/e73326168e050cf964c833e67b0c52993c3057959c57b9773c2330d34e111ba6.jpg"/></a>
+<a href="#39" id="39" class=img><img src="/i/0d9d87f587726fb9fffd7ad256a4a7af14cfe35a1005ae79811b2cc19ecc1a5a.jpg"/></a>
+<a href="#40" id="40" class=img><img src="/i/045ec79ddaad68187230ceabacdcbe84b37bebb4565a03c586cd9dfa4820e48f.jpg"/></a>
+<a href="#41" id="41" class=img><img src="/i/4151c4cf54d82d36da49169cb06a55950b904e026cea99f87184b1241c0d48a0.jpg"/></a>
+<a href="#42" id="42" class=img><img src="/i/d43b186b9d0009640f629075660138445bb6202442be733db792447a3380daea.jpg"/></a>
+
+<center>
+  <a href="https://www.openstreetmap.org/node/1490722262">2 les Métairies 35580 Guignen</a> -
+  <a href="mailto:atelier@metairies.org">atelier@metairies.org</a>
+</center>

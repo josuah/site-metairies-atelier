@@ -1,5 +1,3 @@
-/t/head.html
-/t/head-atelier.html
 
 <h1>Tsurumaki</h1>
 
@@ -15,5 +13,3 @@
 /i/b1cefc52bf138cc3e7321871b3a9991ff432e5bfb08254f25ef20652a50f66ac.jpg
 /i/4491b215865efabd67ccb92e3600969e50d212f44a771ae19e7af328115c2357.jpg
 /i/e3d0f4a37ab3a16239495de5cea91e61948b141ee52ebd030975f7cbc94e7696.jpg
-
-/t/foot.html

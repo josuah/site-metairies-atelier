@@ -1,5 +1,3 @@
-/t/head.html
-/t/head-atelier.html
 
 <h1>Atelier Fu</h1>
 
@@ -28,5 +26,3 @@
    pour permettre des ajustements, mais si la distance est trop
    importante, des photos montrant l'avancement peuvent être
    envoyées.</p>
-
-/t/foot.html

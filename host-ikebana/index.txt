@@ -1,4 +1,1 @@
-/t/head.html
-/t/head-ikebana.html
-
-/t/foot.html
+<h1>Ikebana</h1>

@@ -1,0 +1,7 @@
+<h1>Kyudo</h1>
+
+<p>Bienvenue au dojo de Miki.</p>
+
+<p>Des cours de <a href="https://fr.wikipedia.org/wiki/Ky%C5%ABd%C5%8D">Kyudo</a> y ont occasionellement lieu, et vous y êtes le bienvenue pour découvrir la pratique.</p>
+
+<p>Les horaires des cours y sont régulièrement publiées <a href="#">ici</a>.</p>

@@ -1,0 +1,150 @@
+<!doctype html>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="initial-scale=1.0">
+<style>
+
+html {
+	background-attachment: fixed;
+	background-image: linear-gradient(var(--bg-grad-1), var(--bg-grad-2));
+}
+
+body {
+	color: var(--fg-color);
+
+	display: block;
+	margin: auto;
+	padding: 10%;
+	padding-bottom: 350px;
+	line-height: 1.8em;
+
+	font-size: 0.44cm;
+	font-family: sans;
+
+	background-image: url('/img/pattern.png');
+	background-size: 70px;
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+body > * {
+	max-width: 1000px;
+	margin: 30px auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header img {
+	margin: auto;
+	display: block;
+}
+
+nav {
+	text-align: center;
+}
+
+nav > a {
+	border-top: solid 1px rgba(0,0,0,0);
+	border-bottom: solid 1px rgba(0,0,0,0);
+	text-decoration: none;
+	display: inline-block;
+}
+
+nav > a:hover {
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+}
+
+.img, header img {
+	max-width: calc(100% - 20px - 2px);
+}
+
+.img {
+	width: 500px;
+	line-height: 0em;
+}
+
+.img {
+	display: block;
+	margin: 10px auto;
+	padding: 10px;
+	border: solid 1px #76b;
+}
+
+.img:target {
+	width: 800px;
+}
+
+.img:target, .img:hover {
+	background-color: var(--bg-color);
+}
+
+.img > * {
+	width: 100%;
+}
+
+h1, h2, h3 {
+	margin-top: 3em;
+}
+
+a {
+	color: inherit;
+}
+
+</style>
+<title>Atelier Fu</title>
+<style>
+:root { 
+	--bg-grad-1: #070619;
+	--bg-grad-2: #324670;
+	--bg-color: black;
+	--fg-color: white;
+}
+</style>
+
+<a href="/"> <header> <img src="/images/atelier-fu.png"/> </header> </a>
+
+<nav>
+<a href="/moulins-a-poivre/">Moulins À Poivre コショウひき</a>
+・
+<a href="/gobelets/">Gobelets 湯のみ</a>
+・
+<a href="/girikoire/">Girikoire ぎり粉いれ</a>
+・
+<a href="/yasuri-ire/">Boîtes à Limes 鑢いれ</a>
+・
+<a href="/tsurumaki/">Tsurumaki 弦巻</a>
+</nav>
+
+<h1> Etuis à limes </h1>
+
+<p>Ces étuis à limes sont des Yasuri Ire, des boites allongées pour
+de petits outils tel que les limes utilisées dans la pratique du
+<a href="https://fr.wikipedia.org/wiki/Kyudo">Kyudo</a>.  Elles
+sont de taille à contenir une lime à ongle.  Et leur forme,
+apparence et dimensions peuvent varier à la demande. </p>
+
+<a href="#10" id="10" class=img><img src="/i/69c0884c1076a7f1156fa922438920883c8aaeb2cd5d9e9f8db346dbcf97bf10.jpg"/></a>
+<a href="#11" id="11" class=img><img src="/i/ec2f4cdbb170369b08b9d106865c4e667dc5e58f4213637d748ef42be121b7b8.jpg"/></a>
+<a href="#12" id="12" class=img><img src="/i/9d4db2f184602b95c12c4f77d0403f0e4750a9aa19ad781d7baa099f5b4fbadc.jpg"/></a>
+<a href="#13" id="13" class=img><img src="/i/7acf682b17f1087bae9301d533fbb1db6734981fd9e63972d0692ba7a0125f59.jpg"/></a>
+<a href="#14" id="14" class=img><img src="/i/a29d545013a92ab945bf15854063dafa1e66c1a3f39665f9273afcf327cc1daf.jpg"/></a>
+<a href="#15" id="15" class=img><img src="/i/7cfd59412af2d40ffd9fb89fb972a9723049707db8094297e83b1d4eef095df2.jpg"/></a>
+<a href="#16" id="16" class=img><img src="/i/ef59c30e42d2c53d67ba5cee6fbd73482affd1290aa56c444c2de28627a0d36b.jpg"/></a>
+<a href="#17" id="17" class=img><img src="/i/9683b31a6e0fcc30fcb84cbcb9a2d5bc47f9e8df696440dba242ea83fbc5a828.jpg"/></a>
+<a href="#18" id="18" class=img><img src="/i/47d4f8e111aabdde25c84dea243af606b5ce5ea5e4ae14215476e343c93ce3cc.jpg"/></a>
+<a href="#19" id="19" class=img><img src="/i/cde337dd3e65179441440142a9ed14edfad3a9a7709f835304c2a336b7af4fbb.jpg"/></a>
+<a href="#20" id="20" class=img><img src="/i/594093b481e88acc05a004a08a2d2b1214cd9f2fcbd6b7b8e4d3a28871b0a662.jpg"/></a>
+<a href="#21" id="21" class=img><img src="/i/626c6574acbfe2a3e57f809e3cd6e288680a4da56ae658f1a1420ee693a69a79.jpg"/></a>
+<a href="#22" id="22" class=img><img src="/i/72de174b0af5c5bf650d734e9131de1da808c6164399a0a98e82781c6fe04aa9.jpg"/></a>
+<a href="#23" id="23" class=img><img src="/i/635daad19084cabd2629b05412134f9f064437274ec2f7e0d181135437b75c55.jpg"/></a>
+<a href="#24" id="24" class=img><img src="/i/2e834d71e0d9c10929744b562330ab1f4ed280c3ac821fba91d2a061c5d5eb78.jpg"/></a>
+<a href="#25" id="25" class=img><img src="/i/80de3a4ed7768ab8f0d871dae38d0a61a8b959b95ae41a3fd1549574da099db8.jpg"/></a>
+<a href="#26" id="26" class=img><img src="/i/8de6cf74a86da11072eab441084bfcecbfe042f58277529003fc55556da70104.jpg"/></a>
+<a href="#27" id="27" class=img><img src="/i/253b09f8595edfd068f4c77bf8dddc321554b181c845e6c9d1e8a1f8ce4ae73c.jpg"/></a>
+<a href="#28" id="28" class=img><img src="/i/741ed5c2ce5e836064ce73c5d437f2a3d2efc09ab44f8cd84123cee4714c7907.jpg"/></a>
+<a href="#29" id="29" class=img><img src="/i/be897a9eaa97419404b4e75622135debfe65d1e80216ee6af22b530807ce0dad.jpg"/></a>
+
+<center>
+  <a href="https://www.openstreetmap.org/node/1490722262">2 les Métairies 35580 Guignen</a> -
+  <a href="mailto:atelier@metairies.org">atelier@metairies.org</a>
+</center>

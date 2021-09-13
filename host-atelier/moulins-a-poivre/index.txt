@@ -1,5 +1,3 @@
-/t/head.html
-/t/head-atelier.html
 
 <h1> Moulins à Poivre</h1>
 
@@ -42,5 +40,3 @@
 /i/045ec79ddaad68187230ceabacdcbe84b37bebb4565a03c586cd9dfa4820e48f.jpg
 /i/4151c4cf54d82d36da49169cb06a55950b904e026cea99f87184b1241c0d48a0.jpg
 /i/d43b186b9d0009640f629075660138445bb6202442be733db792447a3380daea.jpg
-
-/t/foot.html
