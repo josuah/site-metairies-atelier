@@ -10,5 +10,5 @@ exec find . -name 'index.txt' -exec sh -c '
 		(/t/*) cat "..$line" ;;
 		(*) echo "$line" ;;
 		esac
-	done <$txt | cat ../t/head.html t/head.html - ../t/foot.html >$html
+	done <$txt | cat ../t/head.html t/head.html - t/foot.html ../t/foot.html >$html
 ' {} \;
